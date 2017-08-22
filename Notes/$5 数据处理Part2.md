@@ -108,7 +108,7 @@ myfunction <- function(arg1, arg2, ...) {
 ```
 * 函数中的对象只在函数内部使用
 
-##4. 整合、重构
+## 4. 整合、重构
 * 行列转置 `t(x)`
 * 整合数据(group by) `aggregate(x, by, FUN)` 
 ```
