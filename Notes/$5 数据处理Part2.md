@@ -2,7 +2,7 @@
 
 ---
 
-##1. 数值和字符处理函数
+## 1. 数值和字符处理函数
 * 数学函数：
     * `abs(x)` 绝对值
     * `sqrt(x)` 平方根
@@ -69,7 +69,8 @@
     * MARGIN 维度下标， =1 行，=2 列
     * FUN 任意函数， ... 传递给FUN的参数
     * `apply(mydata, 2,mean, trim=0.2)` 对mydata按列算截尾均值 （取中间60%的数据，最高、最低20%被忽略）
-##2. 控制流
+
+## 2. 控制流
 * 循环
     * 大数据集中，R中循环较低效费时
     * for `for(var in seq) statement` 
@@ -98,7 +99,7 @@ for (i in feelings)
     )
 ```
 
-##3. 用户自定义函数
+## 3. 用户自定义函数
 ```
 myfunction <- function(arg1, arg2, ...) {
     statements
